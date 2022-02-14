@@ -1,0 +1,27 @@
+//demonstration of  while loop
+using System;
+
+using System.IO;
+
+using System.Linq;
+
+using System.Collections.Generic;
+
+	public class While
+	{
+		public static void Main()
+		{
+			int i = 1; int n;
+			Console.WriteLine("Enter A Number:- ");
+			n = Convert.ToInt32(Console.ReadLine());
+
+			Console.WriteLine(" table of Given number: ");
+		while(i<=10)
+			{
+				Console.WriteLine(n * i);
+				Console.ReadLine();
+				i++;
+			}
+			
+		}
+	}
